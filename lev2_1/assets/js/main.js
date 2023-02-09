@@ -18,7 +18,6 @@ const getTodaysDate = () => {
 	let month = today.getMonth() + 1;
 	month < 10 ? (month = "0" + month) : month;
 	let year = today.getFullYear();
-
 	date.innerHTML = `${day}-${month}-${year}`;
 };
 
